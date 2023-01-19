@@ -1,0 +1,45 @@
+// ang starspeckler
+// 1.19.23
+// printer% (stacks of cymk wool) speedrunIGT extension 
+
+{
+  "id": "printer_percent",
+  "name": "Printer%",
+  "version": "1.16.1",
+  "src_category": " ",
+  "conditions": [
+    [
+	{
+     		"type": "obtain_item",
+		"name": "cyan wool",
+		"item_id": "minecraft:cyan_wool",
+    	  	"item_amount": 64,
+    	  	"strict_mode": true
+    	},
+  
+  	{
+      		"type": "obtain_item",
+    		"name": "magenta wool",
+    		"item_id": "minecraft:magenta_wool",
+      		"item_amount": 64,
+      		"strict_mode": true
+   	},
+  
+    	{
+    	  	"type": "obtain_item",
+     		"name": "yellow wool",
+      		"item_id": "minecraft:yellow_wool",
+     	 	"item_amount": 64,
+      		"strict_mode": true
+    	},
+  
+    	{
+      		"type": "obtain_item",
+     		"name": "black wool",
+     		"item_id": "minecraft:black_wool",
+      		"item_amount": 64,
+      		"strict_mode": true
+       	}
+    ]
+  ]
+}
